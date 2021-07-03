@@ -33,11 +33,11 @@ const createHeader = (home, cart) => {
 
 const renderHeader = () => {
     
-    const cartPath = "/Front/html/cart.html";
+    const cartPath = "/FatetSeraphin_5_02062021_Online/Front/html/cart.html";
    
     // From index
-    const slashIndex = "/";
-    const homeIndex = "/index.html";
+    const slashIndex = "/FatetSeraphin_5_02062021_Online/";
+    const homeIndex = "/FatetSeraphin_5_02062021_Online/index.html";
     
     // From html folder
     const homeOther = "../../index.html";
@@ -53,7 +53,7 @@ const checkLinks = (slashIndex, homeIndex, homeOther, cartPath) => {
     : createHeader(homeOther, cartPath);
 
     // If the current page isn't "confirmation order" page
-    const confirmPath = "/Front/html/confirmation.html";
+    const confirmPath = "/FatetSeraphin_5_02062021_Online/Front/html/confirmation.html";
     (window.location.pathname !== confirmPath)
     ? totalQuantityDOM(cart.updateTotalQty()) // Set cart quantity to LS quantity 
     : totalQuantityDOM(0); // Else set quantity to zero
