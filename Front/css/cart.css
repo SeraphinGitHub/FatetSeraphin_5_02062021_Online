@@ -1,0 +1,356 @@
+
+/* ============================================ */
+/*         ---  Cart Background  ---            */
+/* ============================================ */
+header {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.orinoco {
+    width: 100%;
+    margin-left: 20%;        
+    margin-right: 20%;        
+}
+
+.cart {
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* ============================================ */
+/*              ---  Caption ---                */
+/* ============================================ */
+.caption {
+    justify-content: flex-start;
+    height: 50px;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.caption h3,
+.total-container h3 {
+    font-size: 150%;
+}
+
+.caption-Arti {
+    width: 24%;
+}
+
+.caption-Indi {
+    width: 32%;
+}
+
+.caption-Prix {
+    width: 17%;
+}
+
+/* ============================================ */
+/*          ---  List Container ---             */
+/* ============================================ */
+.flow-cart-list,
+.list-container li {
+    width: 100%;
+    overflow: hidden;
+}
+
+.list-container {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    
+    /* background-color: yellowgreen; */
+}
+
+.flow-cart-item {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid black 2px;
+}
+
+/*  ---  Picture  ---  */
+.list-container a {
+    margin: 20px;
+    height: 200px;
+    width: 20%;
+}
+
+.list-container figure,
+.list-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.list-container img {
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.item-caption,
+.item-price,
+.quantity, 
+.remove-btn {
+    margin: auto;
+}
+
+/*  ---  Caption  ---  */
+.item-caption {
+    align-content: flex-start;
+    height: auto;
+    width: 25%;
+}
+
+.item-caption h3,
+.item-caption p {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+/* --- Price & Color --- */
+.price-color {
+    margin: auto;
+    height: auto;
+    width: 15%;
+}
+
+.item-price,
+.selected-color {
+    width: 100%;
+}
+
+.item-price {
+    margin-bottom: 35px;
+    font-size: 150%;
+}
+
+.selected-color {
+    height: 70px;
+    border-radius: 20px;
+
+    font-family: "Raleway-Medium";
+    font-weight: 600;
+    font-size: 130%;
+}
+
+
+/*  ---  Quantity "+ / -" ---  */
+.quantity {
+    justify-content: space-between;
+    width: 15%;
+}
+
+
+.remove-btn,
+.clean-cart-btn {
+    height: 70px;
+}
+
+/*  --- "+ / -" --- */
+.quantity-plus-btn,
+.quantity-minus-btn {
+    align-content: center;
+    height: 57px;
+    width: 57px;
+    margin: 0%;
+}
+
+.quantity-input {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+/*  ---  Remove Button  ---  */
+.price-color,
+.remove-btn,
+.clean-cart-btn {
+    width: 13%;
+}
+
+
+/* ============================================ */
+/*          ---  Order Container ---            */
+/* ============================================ */
+.order-container {
+    justify-content: space-between;
+    height: auto;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 110px;
+    padding-top: 110px;
+    border-top: solid black 2px;
+}
+
+.clean-cart-btn {
+    width: 200px;
+}
+
+.validate-btn {
+    height: 100px;
+    width: 350px;
+}
+
+.total-container {
+    justify-content: space-between;
+    width: 220px;
+}
+
+
+/* ============================================ */
+/*  --- Validate order form page Container ---  */
+/* ============================================ */
+.validate-page-flow {
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.validate-page {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    border-radius: 50% 50% 0 0;
+
+    /* JS DOM Class Css */
+    transition-duration: 0.7s;
+}
+
+.contact {
+    position: absolute;
+    height: auto;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.label-input-container {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+
+}
+
+.label-input-container label,
+.label-input-container input {
+    width: 100%;
+
+    font-family: "Roboto-Medium";
+    line-height: 100%;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.label-input-container label {
+    font-weight: 600;
+}
+
+.label-input-container input {
+    font-weight: 400;
+
+    margin-top: 8px;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid black 1px;
+}
+
+
+/* --- Purchase Container --- */
+.purchase-container {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+
+/* --- Error Message Empty Cart --- */
+.cart-empty-alert {
+    top: -10%;
+    left: 50%;
+    width: 80%;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.purchase-order-btn {
+    height: 85px;
+    width: 100%;
+}
+
+.cancel-order-btn {
+    margin: 30px;
+    height: 60px;
+    width: 50%;
+}
+
+
+/* --- Error Message Form --- */
+.error-message {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+
+    font-size: 85%;
+    text-align: center;
+    border: solid red 1.5px;
+    border-radius: 5px;
+    background-color: rgb(255, 236, 239);
+}
+
+
+
+/* ============================================ */
+/*  --- Loading Spinner ---                     */
+/* ============================================ */
+.loading-spinner {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.spinner {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    border: 13px solid transparent;
+    border-top-color: darkviolet;
+    border-bottom-color: darkviolet;
+    border-radius: 50%;
+
+    transform: rotate(45deg);
+    animation: 1s linear;
+}
+
+.spinner-anim {
+    animation-name: spin;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(45deg);
+    }
+   
+    100% {
+        transform: rotate(405deg);
+    }
+}

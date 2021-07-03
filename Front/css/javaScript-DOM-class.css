@@ -1,0 +1,68 @@
+
+/* --- Visibility --- */
+.visible {
+    visibility: visible;
+}
+
+
+/* --- Button --- */
+.greyed-out-btn {
+    background : linear-gradient(to bottom right, lightgray, black);
+}
+
+
+/* --- Opacity --- */
+.opacity_100 {
+    opacity: 100%;
+}
+
+
+/* --- Transition duration --- */
+.translateY_-100,
+.translateY_-50,
+.translateY_0,
+.custom-btn-delay {
+
+    /* .purchase-page - main-cart.css */
+    transition-duration: 0.7s;
+}
+
+
+/* --- Translate --- */
+.translateY_-100 {
+    transform: translateY(-100%);
+}
+
+.translateY_-50 {
+    transform: translateY(-50%);
+}
+
+.translateY_0 {
+    transform: translateY(0%);
+}
+
+
+/* --- Border radius --- */
+.border-radius_0 {
+    border-radius: 0;
+}
+
+.border-radius-bottom_0 {
+    border-radius: 20px 20px 0 0;
+}
+
+
+/* --- Button delay --- */
+.custom-btn-delay {
+    transition-delay: 0.5s;
+}
+
+.teddy-img-anim {
+    transform: translate3d(235%, -110%, 0) scale(0) rotate(40deg);
+}
+
+.chosen-color {
+    font-family: "Raleway-Medium";
+    font-weight: 400;
+    font-size: 160%;
+}

@@ -1,0 +1,317 @@
+
+/* ========================================================== */
+/*      Crossover Tablet Big Size - Smartphone         
+/* ========================================================== */
+@media screen and (min-width: 320px) and (max-width : 1024px) {
+
+    .orinoco {
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 100%;
+    }
+    
+    h1 {
+        margin: 0;
+    }
+
+    .cart {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    /*  ==========  Main - Cart ========== */
+
+    /* --- Legend --- */
+    .caption h3,
+    .total-container h3 {
+        font-size: 130%;
+    }
+
+    .caption-Arti {
+        width: 29%;
+    }
+
+    .caption-Prix {
+        width: 22%;
+    }
+
+
+    /* --- List Container --- */
+    .list-container {
+        width: 95%;
+    }
+
+    .flow-cart-item {
+        flex-wrap: wrap;
+    }
+
+
+    .list-container a {
+        margin: 0;
+        width: 30%;
+    }
+
+    .item-caption h3 {
+        margin-top: 0px;
+    }
+
+    .price-color {
+        margin: 0;
+        width: 20%;
+    }
+
+    .item-price {
+        font-size: 140%;
+    }
+
+    .quantity {
+        width: 17%;
+    }
+
+    .quantity-plus-btn,
+    .quantity-minus-btn {
+        width: 47%;
+    }
+
+    .remove-btn {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+
+    /* --- Order Container --- */
+    .order-container {
+        position: relative;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+    
+    .total-container,
+    .order-container {
+        padding-top: 90px;
+    }
+
+    .clean-cart-btn {
+        width: 40%;
+    }
+
+    .validate-btn {
+        height: 100px;
+        width: 70%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .total-container {
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+
+
+    /* --- purchase form page --- */
+    .contact {
+        width: 400px;
+    }
+
+    .label-input-container {
+        width: 70%;
+    }
+}
+
+
+/* ========================================================== */
+/*      Tablet Small Size         
+/* ========================================================== */
+@media screen and (min-width: 421px) and (max-width : 722px) {
+    
+    .orinoco {
+        margin: 0;
+    }
+
+    .caption {
+        display: none;
+    }
+
+    .list-container {
+        margin-top: 20px;
+    }
+
+    .list-container a,
+    .item-caption {
+        margin: 0px;
+        width: 45%;
+    }
+
+    .list-container a {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .item-caption {
+        margin-right: 10px;
+    }
+    
+    .item-price {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .quantity-input {
+        margin: 0;
+    }
+
+    .item-caption,
+    .quantity-minus-btn,
+    .quantity-plus-btn,
+    .quantity-input {
+        margin-bottom: 20px;
+    }
+
+    .price-color,
+    .quantity {
+        width: 40%;
+    }
+
+    /*  ---  Remove Button  ---  */
+    .remove-btn {
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .total-container {
+        width: 200px;
+    }
+}
+
+
+/* ========================================================== */
+/*      Smartphone         
+/* ========================================================== */
+@media screen and (min-width: 320px) and (max-width : 420px) {
+    
+    .orinoco {
+        margin: 0;
+    }
+
+    .caption {
+        display: none;
+    }
+
+    .list-container {
+        margin-top: 20px;
+    }
+
+    .flow-cart-item {
+        justify-content: center;
+    }
+
+    .list-container a,
+    .item-caption,
+    .item-price {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .quantity-input {
+        margin: 0;
+    }
+
+    .item-caption,
+    .item-price,
+    .selected-color,
+    .quantity-minus-btn,
+    .quantity-plus-btn,
+    .quantity-input {
+        margin-bottom: 20px;
+    }
+
+    .quantity {
+        width: 70%;
+    }
+
+    .price-color,
+    .remove-btn {
+        width: 90%;
+    }
+
+
+    /* --- Order Container --- */
+    .order-container {
+        justify-content: center;
+    }
+    
+    .clean-cart-btn {
+        width: 80%;
+    }
+    
+    .validate-btn {
+        height: 100px;
+        width: 95%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .total-container {
+        width: 200px;
+        margin: auto;
+        padding: 0;
+        top: 12%;
+        left: 0;
+    }
+
+
+    /* --- purchase form page --- */
+    .validate-page {
+        border-radius: 120px 120px 0 0;
+    }
+
+    .border-radius_0 {
+        border-radius: 0;
+    }
+
+    .contact {
+        width: 300px;
+    }
+
+    .label-input-container {
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    .label-input-container input {
+        margin-top: 5px;
+        padding-left: 20px;
+        height: 25px;
+    }
+
+    .purchase-container {
+        margin: 10px;
+    }
+
+    /* --- Error Message Empty Cart --- */
+    .cart-empty-alert {
+        top: 15%;
+        left: 50%;
+        width: 70%;
+        height: 25px;
+        transform: translate(-50%, -50%);
+    }
+
+    .purchase-order-btn {
+        margin: 20px;
+        margin-bottom: 50px;
+        margin-bottom: 0;
+        height: 70px;
+        width: 100%;
+    }
+
+    .cancel-order-btn {
+        margin: 15px;
+        height: 50px;
+        width: 50%;
+    }
+}

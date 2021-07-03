@@ -1,0 +1,13 @@
+
+{
+  "colors": [
+    "Beige",
+    "Tan",
+    "Chocolate"
+  ],
+  "_id": "5beaacd41c9d440000a57d97",
+  "name": "Garfunkel",
+  "price": 5500,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "imageUrl": "../images/teddy_5.jpg"
+}

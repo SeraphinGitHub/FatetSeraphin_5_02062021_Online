@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ==== Prevent Favicon Error ==== -->
+    <link rel="icon" href="data:;base64,=">
+    <!-- =============================== -->
+    <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/background.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/javaScript-DOM-class.css">
+    <link rel="stylesheet" href="../css/background-responsive.css">
+    <link rel="stylesheet" href="../css/cart-responsive.css">
+    
+    <title>Orinoco - Panier</title>
+    
+    <script src="../javaScript/routesFromAPI.js" async></script>
+    <script src="../javaScript/class-Teddy.js" async></script>
+    <script src="../javaScript/class-Cart.js" async></script>
+    <script src="../javaScript/background.js" async></script>
+    <script src="../javaScript/cart.js" async></script>
+</head>
+
+<body class="flexCenter">
+    <header>
+    </header>
+
+    <section class="flexCenter border-radius main">
+        <div class="flexCenter caption">
+            <h3 class="caption-Arti">Articles</h3>
+            <h3 class="caption-Indi">Indications</h3>
+            <h3 class="caption-Prix">Prix</h3>
+            <h3>Quantité</h3>
+        </div>
+
+        <div class="flexCenter flow-cart-list">
+            <ul class="flexCenter list-container">    
+            
+            </ul>
+        </div>
+
+        <div class="flexCenter order-container">
+            <button class="btn clean-cart-btn" type="button">Vider le panier</button>
+                
+            <button class="btn validate-btn" type="button">Valider et poursuivre</button>
+           
+            <div class="flexCenter total-container">
+                <h3>TOTAL :</h3>
+                <h3 class="total-price">00€00</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="flexCenter validate-page-flow">
+        <div class="flexCenter validate-page">
+
+            <form class="flexCenter contact" method="POST">
+    
+                <div class="flexCenter label-input-container">
+                    <label for="firstName">Prénom</label>
+                    <input name="firstName" id="firstName" type="text" placeholder="Entrer votre prénom" value="">
+                </div>
+    
+                <div class="flexCenter label-input-container">
+                    <label for="lastName">Nom</label>
+                    <input name="lastName" id="lastName" type="text" placeholder="Entrer votre nom de famille">
+                </div>
+    
+                <div class="flexCenter label-input-container">
+                    <label for="address">Adresse postale</label>
+                    <input name="address" id="address" type="text" placeholder="Entrer votre adresse">
+                </div>
+    
+                <div class="flexCenter label-input-container">
+                    <label for="city">Ville</label>
+                    <input name="city" id="city" type="text" placeholder="Entrer le nom de votre ville">
+                </div>
+    
+                <div class="flexCenter label-input-container">
+                    <label for="email">E-mail</label>
+                    <input name="email" id="email" type="email" placeholder="Entrer votre adresse e-mail">
+                </div>
+
+                <div class="flexCenter purchase-container">
+                    
+                    <!-- Cart empty Alert -->
+                    <span class="flexCenter cart-empty-alert">
+                        Votre panier est vide !
+                    </span>
+    
+                    <button class="btn purchase-order-btn" type="submit">Passer commande</button>
+                </div>
+
+                <button class="btn cancel-order-btn" type="button">Annuler</button>
+            </form>
+
+        </div>
+    </section>
+    
+    <section class="flexCenter loading-spinner backLoad">
+        <div class="flexCenter spinner"></div>
+    </section>
+
+    <footer class="border-radius">
+    </footer>
+
+</body>
+</html>

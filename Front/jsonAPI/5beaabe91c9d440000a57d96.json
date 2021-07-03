@@ -1,0 +1,13 @@
+
+{
+  "colors": [
+    "Brown",
+    "Blue",
+    "Pink"
+  ],
+  "_id": "5beaabe91c9d440000a57d96",
+  "name": "Gustav",
+  "price": 4500,
+  "imageUrl": "../images/teddy_4.jpg",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}

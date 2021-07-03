@@ -1,0 +1,13 @@
+
+{
+  "colors": [
+    "Pale brown",
+    "Dark brown",
+    "White"
+  ],
+  "_id": "5beaa8bf1c9d440000a57d94",
+  "name": "Arnold",
+  "price": 3900,
+  "imageUrl": "../images/teddy_2.jpg",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}

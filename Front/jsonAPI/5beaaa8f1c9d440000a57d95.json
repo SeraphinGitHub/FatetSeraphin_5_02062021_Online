@@ -1,0 +1,11 @@
+
+{
+  "colors": [
+    "Brown"
+  ],
+  "_id": "5beaaa8f1c9d440000a57d95",
+  "name": "Lenny and Carl",
+  "price": 5900,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "imageUrl": "../images/teddy_3.jpg"
+}

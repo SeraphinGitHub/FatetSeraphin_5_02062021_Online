@@ -1,0 +1,55 @@
+/* ============================================ */
+/*         ---  Main Section Page 1 --- */
+/* ============================================ */
+.main {
+    padding-bottom: 50px;
+}
+
+.main li {
+    width: 90%;
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border-top: solid black 2px;
+}
+
+.anchor {
+    justify-content: space-between;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+/* ======  Figure  ====== */
+.anchor figure {
+    height: 250px;
+    width: 300px;
+}
+
+/* ======  Img  ====== */
+.anchor img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.item-caption {
+    align-content: flex-start;
+    height: auto;
+    width: 40%;
+}
+
+.item-caption h3,
+.item-caption p {
+    width: 100%;
+    font-size: 130%;
+    margin-top: 30px;
+}
+
+.anchor:hover {
+    box-shadow: gray 10px 10px 10px;
+}
